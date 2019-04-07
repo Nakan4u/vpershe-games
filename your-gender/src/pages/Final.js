@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import startIcon from "../img/icons/flag-start.svg";
 import finishIcon from "../img/icons/flag-finish.svg";
 import arrowIcon from "../img/icons/arrow.svg";
+import photo from "../img/assets/Illustration-final.png";
 
 export const Final = () => {
     return (
@@ -17,9 +18,8 @@ export const Final = () => {
           />
         </div>
         <img
-          src="https://vpershe.com/assets/uploads/illustration_sex.png"
-          height="100"
-          alt="test"
+          src={photo}
+          alt="congratulation picture"
         />
         <h2>Вітаємо! Вашій дитині буде соромно на першому уроці географії.</h2>
         <article className="usefullLink">
