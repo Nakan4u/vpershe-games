@@ -23,7 +23,7 @@ class App extends Component {
           <Social />
         </header>
         <main>
-          <Router>
+          <Router basename='/vpershe-games'>
             <div>
               <Route exact path="/" component={Home} />
               <Route path="/game" component={Game} />
