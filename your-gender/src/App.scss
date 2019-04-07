@@ -1,0 +1,82 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 700px;
+    margin: 0 auto;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    p {
+        margin: 20px 0;
+    }
+
+    .button {
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        text-decoration: none;
+        background-color:#EAB1F3;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+}
+
+.question {
+    .answers {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        .button {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            min-height: 50px;
+            width: 45%;
+            margin: 10px 0;
+            padding: 0 10px;
+        }
+    }
+}
+
+.progressBar {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    margin: 45px 0 30px;
+
+    .track {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10px;
+        background-color: #EAB1F3;
+        border-radius: 5px;
+    }
+
+    .flagIcon {
+        position: absolute;
+        top: -10px;
+    }
+
+    .startIcon {
+        left: -30px;
+    }
+
+    .finishIcon {
+        right: -30px;
+    }
+}
