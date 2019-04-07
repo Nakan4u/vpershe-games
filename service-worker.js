@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vpershe-games/precache-manifest.c5637ba3010eb10b781d5d20134e252a.js"
+  "/vpershe-games/precache-manifest.8d87521a0a5e6ce37eef1dfb5e44028f.js"
 );
 
 workbox.clientsClaim();
