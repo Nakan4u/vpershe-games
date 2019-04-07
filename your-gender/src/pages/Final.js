@@ -25,15 +25,15 @@ export const Final = () => {
         <article className="usefullLink">
           <p>
             <img
-              src="https://vpershe.com/assets/uploads/illustration_sex.png"
-              height="93"
+              src="https://vpershe.com/assets/uploads/village.jpg"
+              height="100"
               alt="test"
             />
             <a
-              href="https://vpershe.com/assets/uploads/illustration_sex.png"
+              href="https://vpershe.com/sexoteca/yak-hovoryty-z-ditmy-pro-sex-village"
               target="blank"
             >
-              Міфи про статеві інфекції
+              Як говорити з дітьми про секс - The Village Україна
             </a>
             <img className="arrowIcon" src={arrowIcon} alt="arrow icon" />
           </p>

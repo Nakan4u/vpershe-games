@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import startIcon from "../img/icons/flag-start.svg";
 import finishIcon from "../img/icons/flag-finish.svg";
-import photo from "../img/assets/Illustration-2.png";
+import photo from "../img/assets/Illustration-1.png";
 
 export function Game22() {
     return (
