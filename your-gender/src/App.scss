@@ -1,9 +1,18 @@
+$gray-color: #F8F8F8;
+$brand-color: #EAB1F3;
+$black-color: #231F20;
+
 .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     width: 700px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 main {
@@ -16,37 +25,43 @@ main {
         margin: 20px 0;
     }
 
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
     p {
         margin: 20px 0;
     }
 
     .button {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
         outline: none;
         border: none;
         text-transform: capitalize;
         text-decoration: none;
-        background-color:#EAB1F3;
-        padding: 10px 20px;
-        border-radius: 5px;
+        box-sizing: border-box;
+        min-height: 70px;
+        width: 340px;
+        margin: 10px auto;
+        padding: 0 10px;
+        background-image: url("./img/button-background.svg");
+
+        &:hover {
+            background-image: url("./img/button-background-hover.svg");
+        }
     }
 }
 
-.question {
+.question, .final {
     .answers {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        
-        .button {
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: center;
-            min-height: 50px;
-            width: 45%;
-            margin: 10px 0;
-            padding: 0 10px;
-        }
     }
 }
 
@@ -63,7 +78,7 @@ main {
         top: 0;
         left: 0;
         height: 10px;
-        background-color: #EAB1F3;
+        background-color: $brand-color;
         border-radius: 5px;
     }
 
@@ -78,5 +93,27 @@ main {
 
     .finishIcon {
         right: -30px;
+    }
+}
+
+.final {
+    .usefullLink {
+        display: flex;
+        justify-content: center;
+        margin: 29px 0;
+
+        p {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img {
+            margin-right: 20px;
+        }
+
+        .arrowIcon {
+            margin-left: 10px;
+        }
     }
 }
