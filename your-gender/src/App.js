@@ -6,6 +6,9 @@ import "./App.scss";
 import { Social } from "./components/social";
 import { Home } from "./pages/Home";
 import { Game } from "./pages/Game";
+import { Game21 } from "./pages/Game2.1";
+import { Game22 } from "./pages/Game2.2";
+import { Game23 } from "./pages/Game2.3";
 import { Final } from "./pages/Final";
 
 
@@ -24,6 +27,9 @@ class App extends Component {
             <div>
               <Route exact path="/" component={Home} />
               <Route path="/game" component={Game} />
+              <Route path="/game1" component={Game21} />
+              <Route path="/game2" component={Game22} />
+              <Route path="/game3" component={Game23} />
               <Route path="/final" component={Final} />
             </div>
           </Router>
