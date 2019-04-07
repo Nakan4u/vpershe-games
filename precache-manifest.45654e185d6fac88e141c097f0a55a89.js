@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/vpershe-games/static/media/Illustration-1.d960c503.png"
   },
   {
-    "revision": "ddcb32a8980701f93f65",
+    "revision": "3e16da8fff326641c7d3",
     "url": "/vpershe-games/static/css/main.197da1d6.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/vpershe-games/static/media/Illustration-main.79a41f73.png"
   },
   {
-    "revision": "ddcb32a8980701f93f65",
-    "url": "/vpershe-games/static/js/main.eec6ae46.chunk.js"
+    "revision": "3e16da8fff326641c7d3",
+    "url": "/vpershe-games/static/js/main.4ef98a5f.chunk.js"
   },
   {
     "revision": "13128a80b2839ae42232749c18809460",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/vpershe-games/static/media/button-background-hover.a2912498.svg"
   },
   {
-    "revision": "2292e4896fe4b4a57f1a253a57d5ba0d",
+    "revision": "4a7723311902426ca0be824569bdf485",
     "url": "/vpershe-games/index.html"
   }
 ];
