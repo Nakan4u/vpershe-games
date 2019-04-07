@@ -8,7 +8,6 @@
 
 main {
     flex: 1;
-    padding-top: 39px;
     text-align: center;
 }
 
@@ -22,16 +21,14 @@ p {
     margin: 20px 0;
 }
 
-button {
+.button {
     outline: none;
     border: none;
     text-transform: capitalize;
+    text-decoration: none;
     background-color:#EAB1F3;
     padding: 10px 20px;
     border-radius: 5px;
-}
-button:hover {
-    cursor: pointer;
 }
 
 footer {}
